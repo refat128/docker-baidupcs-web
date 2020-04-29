@@ -1,13 +1,14 @@
 FROM lsiobase/alpine:3.8
 
 # set label
-LABEL maintainer="NG6"
+LABEL maintainer="refat128"
 
 ARG BaiduPCSGo_VER=3.7.0
+ARG FIX_VER=fix5
 
 COPY  root /
 
-RUN wget --no-check-certificate https://github.com/liuzhuoling2011/baidupcs-web/releases/download/${BaiduPCSGo_VER}/BaiduPCS-Go-${BaiduPCSGo_VER}-linux-amd64.zip \
+RUN wget --no-check-certificate https://github.com/Erope/baidupcs-web/releases/download/${BaiduPCSGo_VER}-${FIX_VER}/BaiduPCS-Go-${BaiduPCSGo_VER}-linux-amd64.zip \
 &&  unzip BaiduPCS-Go-${BaiduPCSGo_VER}-linux-amd64.zip \
 &&  mv BaiduPCS-Go-${BaiduPCSGo_VER}-linux-amd64/BaiduPCS-Go /usr/bin/BaiduPCS-Go \
 &&  rm -rf BaiduPCS-Go-${BaiduPCSGo_VER}-linux-amd64*  \
