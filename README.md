@@ -1,3 +1,8 @@
+# 原作者已经挺更，更新了Erope的修改版
+https://github.com/Erope/baidupcs-web/releases
+Docker Hub：https://hub.docker.com/r/hdtv720p/baidupcs-web
+
+
 # 离线百度网盘下载Docker版
 Docker Hub：https://hub.docker.com/r/superng6/baidupcs-web  
 GitHub：https://github.com/SuperNG6/docker-baidupcs-web  
