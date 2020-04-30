@@ -1,7 +1,7 @@
 version: "2"
 services:
   aria2:
-    image: superng6/baidupcs-web
+    image: hdtv720p/baidupcs-web
     container_name: baidupcs-web
     environment:
       - PUID=1026
