@@ -1,6 +1,6 @@
 #!/bin/bash
 
 docker build \
-  --tag superng6/baidupcs-web:latest \
+  --tag hdtv720p/baidupcs-web:latest \
   --force-rm \
     .
